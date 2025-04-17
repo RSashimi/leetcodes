@@ -63,7 +63,7 @@ func main() {
 
 	words, err := readWordlist(wordlist)
 	if err != nil {
-		fmt.Println(colorRed + fmt.Sprintf("[!] Failed to read wordlist, wtf is wrong with u ^^ : %v", err) + colorReset)
+		fmt.Println(colorRed + fmt.Sprintf("[!] Failed to read wordlist, let's get back to the basics : %v", err) + colorReset)
 		os.Exit(1)
 	}
 
