@@ -150,7 +150,7 @@ func httpCheck(fqdn string) {
 			}
 		}
 
-		body, err := io.ReadAll(io.LimitReader(resp.Body, 1024*10)) // read max 10KB, idk changeable , put your own damn number innit 
+		body, err := io.ReadAll(io.LimitReader(resp.Body, 1024*10)) // read max 10KB, idk changeable , put your own number innit 
 		if err != nil {
 			continue
 		}
